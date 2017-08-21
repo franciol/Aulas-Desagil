@@ -4,12 +4,12 @@ import java.util.LinkedList;
 public class Command {
 	
 	private String ordem = new String();
-	private Long data;
+	private int data;
 
 	
-	void inicializar(String ordemInicial, Long dateInicial) {
+	void inicializar(String ordemInicial, int i) {
 		ordem = ordemInicial;
-		data = dateInicial;
+		data = i;
 	}
 	
 	String getcommand() {
