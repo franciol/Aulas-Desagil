@@ -4,12 +4,12 @@ public class Main {
 		Course desagil =  new Course();
 		Student Rapha = new Student(1,"Raphael");
 		Student Fred = new Student(2,"Fred");
-		desagil.enroll(Rapha);
-		desagil.enroll(Fred);
+		desagil.enrollInsane(Rapha, 0.7);
+		desagil.enrollInsane(Fred, 0.5556);
 		
-		desagil.setGrade(1, 8);
-		desagil.setGrade(2, 9);
-		desagil.printReport();
+		desagil.setInsaneGrade(1, 9);
+		desagil.setInsaneGrade(2, 9);
+		desagil.printInsaneReport();
 		
 	}
 
