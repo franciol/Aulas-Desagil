@@ -1,7 +1,7 @@
 
 public class Enrollment {
-	private Student student;
-	private double finalGrade;
+	protected Student student;
+	protected double finalGrade;
 	
 	public Enrollment(int idIn, String nameIn) {
 		student = new Student(idIn ,nameIn);
